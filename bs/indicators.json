@@ -375,7 +375,7 @@
         },
         {
           "id": "2-4-1",
-          "title": "Stanovništvo staro 10 i više godina prema gradu/općini, pismenosti i spolu",
+          "title": "Stanovništvo staro 10 i više godina prema pismenosti i spolu",
           "description": "",
           "keywords": "",
           "href": "/bs/2-4-1",
@@ -383,7 +383,7 @@
         },
         {
           "id": "2-4-2",
-          "title": "Stanovništvo staro 15 i više godina prema gradu/općini, najvišoj završenoj školi i spolu",
+          "title": "Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu",
           "description": "",
           "keywords": "",
           "href": "/bs/2-4-2",
@@ -655,7 +655,7 @@
         
         {
           "id": "4-1-1",
-          "title": "Korisnici socijalne zaštite prema vrsti korisnika",
+          "title": "Korisnici socijalne zaštite prema vrsti korisnika i spolu",
           "description": "",
           "keywords": "",
           "href": "/bs/4-1-1",
@@ -683,22 +683,6 @@
           "description": "",
           "keywords": "",
           "href": "/bs/4-1-4",
-          "status": "complete"
-        },
-        {
-          "id": "4-1-5",
-          "title": "Broj korisnika dodatka na djecu",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/4-1-5",
-          "status": "complete"
-        },
-        {
-          "id": "4-2-1",
-          "title": "Ustanove socijalne zaštite prema vrsti",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/4-2-1",
           "status": "complete"
         }]
     }
@@ -743,7 +727,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "Broj učenika na početku školske godine prema spolu",
+          "title": "Broj učenika na početku školske godine prema spolu (osnovna škola)",
           "description": "",
           "keywords": "",
           "href": "/bs/5-2-1",
@@ -767,7 +751,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "Broj učenika na početku školske godine prema spolu",
+          "title": "Broj učenika na početku školske godine prema spolu (srednja škola)",
           "description": "",
           "keywords": "",
           "href": "/bs/5-3-1",
@@ -775,7 +759,7 @@
         },
         {
           "id": "5-3-2",
-          "title": "Broj učenika na početku školske godine prema vrsti škole",
+          "title": "Broj učenika na početku školske godine prema vrsti srednje škole",
           "description": "",
           "keywords": "",
           "href": "/bs/5-3-2",
