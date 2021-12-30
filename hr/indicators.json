@@ -335,7 +335,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "Stanovništvo prema gradu/općini, etničkoj/nacionalnoj pripadnosti i spolu",
+          "title": "Kućanstva prema broju članova",
           "description": "",
           "keywords": "",
           "href": "/hr/2-2-1",
@@ -343,23 +343,15 @@
         },
         {
           "id": "2-2-2",
-          "title": "Stanovništvo prema gradu/općini, vjeroispovijesti i spolu",
+          "title": "Kućanstva prema poljoprivrednoj aktivnosti",
           "description": "",
           "keywords": "",
           "href": "/hr/2-2-2",
           "status": "complete"
         },
         {
-          "id": "2-2-3",
-          "title": "Stanovništvo prema gradu/općini, maternjem jeziku i spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/hr/2-2-3",
-          "status": "complete"
-        },
-        {
           "id": "2-3-1",
-          "title": "Kućanstva prema gradu/općini i broju članova",
+          "title": "Stanovništvo staro 10 i više godina prema pismenosti i spolu",
           "description": "",
           "keywords": "",
           "href": "/hr/2-3-1",
@@ -367,7 +359,7 @@
         },
         {
           "id": "2-3-2",
-          "title": "Kućanstva prema gradu/općini i poljoprivrednoj aktivnosti",
+          "title": "Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu",
           "description": "",
           "keywords": "",
           "href": "/hr/2-3-2",
@@ -375,26 +367,10 @@
         },
         {
           "id": "2-4-1",
-          "title": "Stanovništvo staro 10 i više godina prema pismenosti i spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/hr/2-4-1",
-          "status": "complete"
-        },
-        {
-          "id": "2-4-2",
-          "title": "Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/hr/2-4-2",
-          "status": "complete"
-        },
-        {
-          "id": "2-5-1",
           "title": "Stanovništvo sa poteškoćama prema vrsti poteškoće, dobnim skupinama i spolu",
           "description": "",
           "keywords": "",
-          "href": "/hr/2-5-1",
+          "href": "/hr/2-4-1",
           "status": "complete"
         }]
     }
