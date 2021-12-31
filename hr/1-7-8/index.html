@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20211231122437">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20211231151046">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -808,15 +808,16 @@ opensdg.chartConfigAlter(function(config, info) {
 <script>
 
    opensdg.chartConfigAlter(function (config, info) {
+      // console.log(info);
 
       //set red color for female, and blue for male
       for (var i = 0; i < info.datasets.length; i++) {
-         if (info.datasets[i].disaggregation.PYRAMID_SEX == "F") {
-            info.datasets[i].backgroundColor = "red";
-            info.datasets[i].borderColor = "red";
-         } else {
+         if (info.datasets[i].disaggregation.PYRAMID_SEX == "M") {
             info.datasets[i].backgroundColor = "blue";
             info.datasets[i].borderColor = "blue";
+         } else {
+            info.datasets[i].backgroundColor = "red";
+            info.datasets[i].borderColor = "red";
          }
       }
       //reverse the order of data, so lower age ranges are printed last. We do this to get pyramid shape
@@ -1886,12 +1887,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20211231122437'></script>
+<script src='/assets/js/sdg.js?v=20211231151046'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20211231122437"></script><script>
+    <script src="/assets/js/custom.js?v=20211231151046"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
