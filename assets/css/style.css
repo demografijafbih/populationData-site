@@ -3076,9 +3076,6 @@ span.female:after {
   left: -15px;
   top: 6px; }
 
-@media (max-width: 991px) {
-  .pyramid-age-range {
-    display: none; } }
 .pyramid-age-range {
   position: absolute;
   top: 193px;
