@@ -3092,10 +3092,14 @@ span.female:after {
       right: 16px; } }
   @media screen and (max-width: 360px) {
     .pyramid-age-range {
-      top: 181px; } }
+      top: 181px;
+      right: 20px; } }
   .pyramid-age-range li {
     list-style: none; }
 
+@media screen and (max-width: 360px) {
+  .chart-title.pyramid {
+    min-height: 38px; } }
 body > .pyramid-age-range {
   display: none; }
 
