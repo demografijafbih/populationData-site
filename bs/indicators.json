@@ -551,7 +551,7 @@
         },
         {
           "id": "3-5-8",
-          "title": "Broj doktora medicine specijalista zaposlenih u ustanovama za pružanje zdravstvene zaštite",
+          "title": "Broj medicinskih tehničara zaposlenih u ustanovama za pružanje zdravstvene zaštite",
           "description": "",
           "keywords": "",
           "href": "/bs/3-5-8",
@@ -559,7 +559,7 @@
         },
         {
           "id": "3-5-9",
-          "title": "Broj doktora medicine specijalista zaposlenih u ustanovama za pružanje zdravstvene zaštite na 100.000 stanovnika",
+          "title": "global_indicators.3-5-9-title",
           "description": "",
           "keywords": "",
           "href": "/bs/3-5-9",
