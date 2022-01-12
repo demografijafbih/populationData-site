@@ -511,7 +511,7 @@
         },
         {
           "id": "3-5-3",
-          "title": "Broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene zaštite",
+          "title": "Broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene skrbi prema spolu",
           "description": "",
           "keywords": "",
           "href": "/hr/3-5-3",
@@ -519,7 +519,7 @@
         },
         {
           "id": "3-5-4",
-          "title": "Broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene zaštite na 100.000 stanovnika",
+          "title": "Broj opstetričara i ginekologa zaposlenih u ustanovama za pružanje zdravstvene skrbi",
           "description": "",
           "keywords": "",
           "href": "/hr/3-5-4",
@@ -527,7 +527,7 @@
         },
         {
           "id": "3-5-5",
-          "title": "Broj specijalista obiteljske medicine uposlenih u ustanovama za pružanje zdravstvene zaštite",
+          "title": "Broj primalja zaposlenih u ustanovama za pružanje zdravstvene skrbi",
           "description": "",
           "keywords": "",
           "href": "/hr/3-5-5",
@@ -535,7 +535,7 @@
         },
         {
           "id": "3-5-6",
-          "title": "Broj specijalista obiteljske medicine zaposlenih u ustanovama za pružanje zdravstvene zaštite na 100.000 stanovnika",
+          "title": "Broj medicinskih tehničara zaposlenih u ustanovama za pružanje zdravstvene skrbi",
           "description": "",
           "keywords": "",
           "href": "/hr/3-5-6",
@@ -543,7 +543,7 @@
         },
         {
           "id": "3-5-7",
-          "title": "Broj primalja zaposlenih u ustanovama za pružanje zdravstvene zaštite",
+          "title": "global_indicators.3-5-7-title",
           "description": "",
           "keywords": "",
           "href": "/hr/3-5-7",
@@ -551,7 +551,7 @@
         },
         {
           "id": "3-5-8",
-          "title": "Broj medicinskih tehničara zaposlenih u ustanovama za pružanje zdravstvene skrbi",
+          "title": "global_indicators.3-5-8-title",
           "description": "",
           "keywords": "",
           "href": "/hr/3-5-8",
