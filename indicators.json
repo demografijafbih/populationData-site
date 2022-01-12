@@ -519,7 +519,7 @@
         },
         {
           "id": "3-5-4",
-          "title": "Medical doctors employed in health care institutions per 100,000 population",
+          "title": "Family medicine doctors employed in health care institutions",
           "description": "",
           "keywords": "",
           "href": "/3-5-4",
@@ -527,7 +527,7 @@
         },
         {
           "id": "3-5-5",
-          "title": "Family medicine doctors employed in health care institutions",
+          "title": "Family medicine doctors employed in health care institutions per 100,000 population",
           "description": "",
           "keywords": "",
           "href": "/3-5-5",
@@ -535,7 +535,7 @@
         },
         {
           "id": "3-5-6",
-          "title": "Family medicine doctors employed in health care institutions per 100,000 population",
+          "title": "Midwives employed in health care institutions",
           "description": "",
           "keywords": "",
           "href": "/3-5-6",
@@ -543,7 +543,7 @@
         },
         {
           "id": "3-5-7",
-          "title": "Midwives employed in health care institutions",
+          "title": "Nurses employed in health care institutions",
           "description": "",
           "keywords": "",
           "href": "/3-5-7",
@@ -551,7 +551,7 @@
         },
         {
           "id": "3-5-8",
-          "title": "Nurses employed in health care institutions",
+          "title": "global_indicators.3-5-8-title",
           "description": "",
           "keywords": "",
           "href": "/3-5-8",
