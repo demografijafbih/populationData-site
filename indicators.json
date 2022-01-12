@@ -542,14 +542,6 @@
           "status": "complete"
         },
         {
-          "id": "3-5-8",
-          "title": "global_indicators.3-5-8-title",
-          "description": "",
-          "keywords": "",
-          "href": "/3-5-8",
-          "status": "complete"
-        },
-        {
           "id": "3-6-1",
           "title": "Contraceptive prevalence rate",
           "description": "",
@@ -583,7 +575,7 @@
         },
         {
           "id": "3-7-1",
-          "title": "Other",
+          "title": "Population with disabilities by type of disability, age and sex",
           "description": "",
           "keywords": "",
           "href": "/3-7-1",
