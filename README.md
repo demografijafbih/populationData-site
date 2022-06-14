@@ -1,1 +1,1 @@
-Demo: https://demografijafbih.github.io/populationData-site/
+Demo: https://demografijafbih.github.io/populationData-site
