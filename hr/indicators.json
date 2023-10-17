@@ -252,6 +252,30 @@
           "keywords": "",
           "href": "/populationData-site/hr/1-7-8",
           "status": "complete"
+        },
+        {
+          "id": "1-8-1",
+          "title": "Procjene stanovništva prema dobi i spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/hr/1-8-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-8-2",
+          "title": "Procjene stanovništva prema dobnim skupinama i spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/hr/1-8-2",
+          "status": "complete"
+        },
+        {
+          "id": "1-8-3",
+          "title": "Procjene stanovništva prema gradu/općini, dobnim skupinama i spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/hr/1-8-3",
+          "status": "complete"
         }]
     }
   },
