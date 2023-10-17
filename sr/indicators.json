@@ -142,14 +142,6 @@
           "status": "complete"
         },
         {
-          "id": "1-4-5",
-          "title": "Просјечна старост приликом развода брака према полу",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/1-4-5",
-          "status": "complete"
-        },
-        {
           "id": "1-5-1",
           "title": "Очекивано трајање живота при рођењу према полу",
           "description": "",
@@ -251,30 +243,6 @@
           "description": "",
           "keywords": "",
           "href": "/populationData-site/sr/1-7-8",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-1",
-          "title": "Процјене становништва према старости и полу",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/1-8-1",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-2",
-          "title": "Процјене становништва према старосним групама и полу",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/1-8-2",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-3",
-          "title": "Процјене становништва према граду/општини, старосним групама и полу",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/1-8-3",
           "status": "complete"
         }]
     }
@@ -459,38 +427,6 @@
           "description": "",
           "keywords": "",
           "href": "/populationData-site/sr/3-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-2",
-          "title": "Инциденца гонореје",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/3-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-3",
-          "title": "Инциденца АИДС-а",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/3-3-3",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-4",
-          "title": "Инциденца ХИВ-а",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/3-3-4",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-5",
-          "title": "Инциденца ХИВ-а на 100.000 становника",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/sr/3-3-5",
           "status": "complete"
         },
         {

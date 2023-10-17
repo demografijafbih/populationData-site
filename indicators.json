@@ -142,14 +142,6 @@
           "status": "complete"
         },
         {
-          "id": "1-4-5",
-          "title": "Average age at the time of divorce by sex",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/1-4-5",
-          "status": "complete"
-        },
-        {
           "id": "1-5-1",
           "title": "Life expectancy at birth by sex",
           "description": "",
@@ -251,30 +243,6 @@
           "description": "",
           "keywords": "",
           "href": "/populationData-site/1-7-8",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-1",
-          "title": "Population estimates by age and sex",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/1-8-1",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-2",
-          "title": "Population estimates by age groups and sex",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/1-8-2",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-3",
-          "title": "Population estimates by city/municipality, age groups and sex",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/1-8-3",
           "status": "complete"
         }]
     }
@@ -459,38 +427,6 @@
           "description": "",
           "keywords": "",
           "href": "/populationData-site/3-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-2",
-          "title": "Incidence of gonorrhoea",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/3-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-3",
-          "title": "Incidence of AIDS",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/3-3-3",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-4",
-          "title": "Incidence of HIV",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/3-3-4",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-5",
-          "title": "Incidence of HIV per 100,000 population",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/3-3-5",
           "status": "complete"
         },
         {

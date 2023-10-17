@@ -142,14 +142,6 @@
           "status": "complete"
         },
         {
-          "id": "1-4-5",
-          "title": "Prosječna dob prilikom razvoda braka prema spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/1-4-5",
-          "status": "complete"
-        },
-        {
           "id": "1-5-1",
           "title": "Očekivano trajanje života pri rođenju prema spolu",
           "description": "",
@@ -251,30 +243,6 @@
           "description": "",
           "keywords": "",
           "href": "/populationData-site/hr/1-7-8",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-1",
-          "title": "Procjene stanovništva prema dobi i spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/1-8-1",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-2",
-          "title": "Procjene stanovništva prema dobnim skupinama i spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/1-8-2",
-          "status": "complete"
-        },
-        {
-          "id": "1-8-3",
-          "title": "Procjene stanovništva prema gradu/općini, dobnim skupinama i spolu",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/1-8-3",
           "status": "complete"
         }]
     }
@@ -459,38 +427,6 @@
           "description": "",
           "keywords": "",
           "href": "/populationData-site/hr/3-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-2",
-          "title": "Incidenca gonoreje",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/3-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-3",
-          "title": "Incidenca AIDS-a",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/3-3-3",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-4",
-          "title": "Incidenca HIV-a",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/3-3-4",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-5",
-          "title": "Incidenca HIV-a na 100.000 stanovnika",
-          "description": "",
-          "keywords": "",
-          "href": "/populationData-site/hr/3-3-5",
           "status": "complete"
         },
         {
