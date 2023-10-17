@@ -462,6 +462,38 @@
           "status": "complete"
         },
         {
+          "id": "3-3-2",
+          "title": "Инциденца гонореје",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/sr/3-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-3",
+          "title": "Инциденца АИДС-а",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/sr/3-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-4",
+          "title": "Инциденца ХИВ-а",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/sr/3-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-5",
+          "title": "Инциденца ХИВ-а на 100.000 становника",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/sr/3-3-5",
+          "status": "complete"
+        },
+        {
           "id": "3-4-1",
           "title": "Број царских резова",
           "description": "",
