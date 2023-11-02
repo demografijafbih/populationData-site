@@ -3108,3 +3108,6 @@ body > .pyramid-age-range {
   position: absolute;
   left: 85px;
   top: 170px; }
+
+#national .table p {
+  white-space: pre-wrap; }
