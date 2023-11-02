@@ -585,3 +585,9 @@ body > .pyramid-age-range {
    top: 170px;
 }
 //end pyramid
+
+//fix new line for indicator tables
+
+#national .table p {
+    white-space: pre-wrap;
+}
