@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231109112817">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231109115937">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-1-1'
   data-id="1-1-1"
-  data-country="Federation of Bosnia and Herzegovina, cantons."
+  data-country="metadata_fields.geographical_coverage_fbih_cantons"
   data-charttitle="Vital statistics by sex (live births, deaths, natural change)"
   data-charttitles="null"
-  data-measurementunit="Number"
+  data-measurementunit="metadata_fields.unit_of_measurement_number"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,10 +571,10 @@ data-event-label="high"
     <p>Source: FZS</p>
     
     
-    <p>Geographical Area: Federation of Bosnia and Herzegovina, cantons.</p>
+    <p>Geographical Area: metadata_fields.geographical_coverage_fbih_cantons</p>
     
     
-    <p>Unit of Measurement: Number</p>
+    <p>Unit of Measurement: metadata_fields.unit_of_measurement_number</p>
     
     
   </div>
@@ -879,12 +879,12 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Geographical Area:</dt>
-        <dd>Federation of Bosnia and Herzegovina, cantons.</dd>
+        <dd>metadata_fields.geographical_coverage_fbih_cantons</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number</dd>
+        <dd>metadata_fields.unit_of_measurement_number</dd>
         
 
         
@@ -924,12 +924,12 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Geographical Area:</dt>
-        <dd>Federation of Bosnia and Herzegovina, cantons.</dd>
+        <dd>metadata_fields.geographical_coverage_fbih_cantons</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number</dd>
+        <dd>metadata_fields.unit_of_measurement_number</dd>
         
 
         
@@ -1034,7 +1034,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>Federation of Bosnia and Herzegovina, cantons.</p>
+            <p>metadata_fields.geographical_coverage_fbih_cantons</p>
 
           
         </td>
@@ -1048,7 +1048,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Number</p>
+            <p>metadata_fields.unit_of_measurement_number</p>
 
           
         </td>
@@ -1062,7 +1062,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>A live-born child (live birth) is every child who breathes and exhibits other signs of life at birth, such as beating of the heart, pulsation of the umbilical cord or definite movement of voluntary muscles. If a child dies soon after the birth, it is first registered as a live-born and then as an infant death.Death is the permanent disappearance of all evidence od life at any time after livebirth has taken place (postnatal cessation of vital functions with no possibility of resuscitation). This definition excludes foetal deaths, which are defined separately. Natural increase or fall is the difference (surplus or deficit) between the number of livebirths and the number of dead persons in the reference year.</p>
+            <p>metadata_fields.definitions_1_1_1</p>
 
           
         </td>
@@ -1076,10 +1076,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            <p>J=N-M 
- J- Natural increase 
- N- Number of live births 
- M- Number of deaths</p>
+            <p>metadata_fields.calculations_1_1_1</p>
 
           
         </td>
@@ -1135,7 +1132,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Comments and limitations </th>
         <td>
           
-            <p>Data for the Federation of Bosnia and Herzegovina are the sum of data for cantons.</p>
+            <p>metadata_fields.comments_and_limitations_1_1_1</p>
 
           
         </td>
@@ -1169,7 +1166,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/49cc901091131e32f9d502bd00de8fd84c672b05" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/ac65ae98e440f9f115bc0e08a141858205c40e19" target="_blank">
                 2023-11-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1196,7 +1193,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/49cc901091131e32f9d502bd00de8fd84c672b05" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/ac65ae98e440f9f115bc0e08a141858205c40e19" target="_blank">
                 2023-11-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1883,12 +1880,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231109112817'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231109115937'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231109112817"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231109115937"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

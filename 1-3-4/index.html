@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231109112817">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231109115937">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-3-4'
   data-id="1-3-4"
-  data-country="Federation of Bosnia and Herzegovina."
+  data-country="metadata_fields.geographical_coverage_fbih"
   data-charttitle="Deaths by cause of death and sex"
   data-charttitles="null"
-  data-measurementunit="Number"
+  data-measurementunit="metadata_fields.unit_of_measurement_number"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,10 +571,10 @@ data-event-label="high"
     <p>Source: BHAS</p>
     
     
-    <p>Geographical Area: Federation of Bosnia and Herzegovina.</p>
+    <p>Geographical Area: metadata_fields.geographical_coverage_fbih</p>
     
     
-    <p>Unit of Measurement: Number</p>
+    <p>Unit of Measurement: metadata_fields.unit_of_measurement_number</p>
     
     
   </div>
@@ -879,12 +879,12 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Geographical Area:</dt>
-        <dd>Federation of Bosnia and Herzegovina.</dd>
+        <dd>metadata_fields.geographical_coverage_fbih</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number</dd>
+        <dd>metadata_fields.unit_of_measurement_number</dd>
         
 
         
@@ -924,12 +924,12 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Geographical Area:</dt>
-        <dd>Federation of Bosnia and Herzegovina.</dd>
+        <dd>metadata_fields.geographical_coverage_fbih</dd>
         
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number</dd>
+        <dd>metadata_fields.unit_of_measurement_number</dd>
         
 
         
@@ -1034,7 +1034,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>Federation of Bosnia and Herzegovina.</p>
+            <p>metadata_fields.geographical_coverage_fbih</p>
 
           
         </td>
@@ -1048,7 +1048,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Number</p>
+            <p>metadata_fields.unit_of_measurement_number</p>
 
           
         </td>
@@ -1062,7 +1062,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>Cause of death is considered to be a disease, condition or injury which resulted or contributed to death and circumstances of an accident or violence which produced such injuries. Causes of death are classified according to the XthRevision of the International Classification od Diseases, Injuries and Causes of Death.</p>
+            <p>metadata_fields.definitions_1_3_4</p>
 
           
         </td>
@@ -1166,7 +1166,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/49cc901091131e32f9d502bd00de8fd84c672b05" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/ac65ae98e440f9f115bc0e08a141858205c40e19" target="_blank">
                 2023-11-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1193,7 +1193,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/49cc901091131e32f9d502bd00de8fd84c672b05" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/ac65ae98e440f9f115bc0e08a141858205c40e19" target="_blank">
                 2023-11-09: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1880,12 +1880,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231109112817'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231109115937'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231109112817"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231109115937"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
