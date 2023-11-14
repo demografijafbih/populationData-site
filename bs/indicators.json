@@ -192,7 +192,7 @@
         {
           "id": "1-7-1",
           "title": "Projekcije stanovništva prema dobi i spolu",
-          "description": "",
+          "description": "Podaci o projekcijama stanovništva Federacije Bosne i Hercegovine 2020 – 2070. godine dobiveni su na osnovu poznatih parametara o prirodnom kretanju stanovništva (fertilitet i mortalitet) i o mehaničkom kretanju stanovništva (migracije stanovništva). Pri izradi projekcija primijenjen je kohortno-komponentni metod (pristup), koji se temelji na postepenom stvaranju novih kohorti rođenih i njihovom pomjeranju, zajedno sa već postojećim kohortama rođenih, u starije uzraste pod istovremenim uticajem komponenata reprodukcije stanovništva – fertiliteta, mortaliteta, imigracija i emigracija.",
           "keywords": "",
           "href": "/populationData-site/bs/1-7-1",
           "status": "complete"
