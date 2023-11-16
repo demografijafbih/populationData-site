@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231116111806">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231116112411">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,7 +505,7 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-1-6'
   data-id="2-1-6"
-  data-country="BiH"
+  data-country="Federation of Bosnia and Herzegovina."
   data-charttitle="Dependency ratios by sex"
   data-charttitles="null"
   data-measurementunit=""
@@ -568,8 +568,10 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: BHAS</p>
+    <p>Source: FZS</p>
     
+    
+    <p>Geographical Area: Federation of Bosnia and Herzegovina.</p>
     
     
     
@@ -870,9 +872,12 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>BHAS</dd>
+        <dd>FZS</dd>
         
 
+        
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
         
 
         
@@ -909,9 +914,12 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>BHAS</dd>
+        <dd>FZS</dd>
         
 
+        
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
         
 
         
@@ -990,7 +998,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            
+            <p>2013</p>
 
           
         </td>
@@ -1018,7 +1026,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Federation of Bosnia and Herzegovina.</p>
 
           
         </td>
@@ -1046,7 +1054,11 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <ol>
+  <li>The dependency ratio is the ratio of the population aged 0 to 14 and over the age of 50, compared with the total population aged 15 to 49.</li>
+  <li>The dependency ratio is the ratio of the population aged zero to 14 and over the age of 60, compared with the total population aged 15 to 59.</li>
+  <li>The dependency ratio is the ratio of the population aged zero to 19 and over the age of 65, compared with the total population aged 20 to 64.</li>
+</ol>
 
           
         </td>
@@ -1060,7 +1072,9 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            
+            <p>1.(0-14+50+)/(15-49)<em>100 
+ 2.(0-14+60+)/(15-59)</em>100 
+ 3.(0-19+65+)/(20-64)*100</p>
 
           
         </td>
@@ -1150,7 +1164,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/f1b9c4c8ec5cc51996e2859a2d821ebe6d6a1d0d" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/8e9fbb3a35f38917ef217b46803847dff96f4312" target="_blank">
                 2023-11-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1177,7 +1191,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/f1b9c4c8ec5cc51996e2859a2d821ebe6d6a1d0d" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/8e9fbb3a35f38917ef217b46803847dff96f4312" target="_blank">
                 2023-11-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1576,7 +1590,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>BHAS</p>
+            <p>FZS</p>
 
           
         </td>
@@ -1868,12 +1882,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231116111806'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231116112411'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231116111806"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231116112411"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
