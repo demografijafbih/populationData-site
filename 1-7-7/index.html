@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231116085413">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231116091027">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_1-7-7'
   data-id="1-7-7"
-  data-country="BiH"
+  data-country="Federation of Bosnia and Herzegovina."
   data-charttitle="Projected average age of population"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Permil"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -756,9 +756,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: BHAS</p>
+    <p>Source: FZS</p>
     
     
+    <p>Geographical Area: Federation of Bosnia and Herzegovina.</p>
+    
+    
+    <p>Unit of Measurement: Permil</p>
     
     
   </div>
@@ -1058,11 +1062,17 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>BHAS</dd>
+        <dd>FZS</dd>
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Permil</dd>
         
 
         
@@ -1097,11 +1107,17 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>BHAS</dd>
+        <dd>FZS</dd>
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Permil</dd>
         
 
         
@@ -1178,7 +1194,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            
+            <p>1996-2022</p>
 
           
         </td>
@@ -1206,7 +1222,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Federation of Bosnia and Herzegovina.</p>
 
           
         </td>
@@ -1220,7 +1236,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Permil</p>
 
           
         </td>
@@ -1338,7 +1354,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/af6c128a09db87c7ed9598faa432da7d1c847d3f" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/458296f1e0eb7ffdbf062b091b8efcde91eb675e" target="_blank">
                 2023-11-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1365,7 +1381,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/af6c128a09db87c7ed9598faa432da7d1c847d3f" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/458296f1e0eb7ffdbf062b091b8efcde91eb675e" target="_blank">
                 2023-11-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1764,7 +1780,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>BHAS</p>
+            <p>FZS</p>
 
           
         </td>
@@ -2052,12 +2068,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231116085413'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231116091027'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231116085413"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231116091027"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
