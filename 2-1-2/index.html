@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231116094410">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231116094859">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-1-2'
   data-id="2-1-2"
-  data-country="BiH"
+  data-country="Federation of Bosnia and Herzegovina, cantons."
   data-charttitle="Population by age groups and sex"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Number"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -568,9 +568,13 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Source: BHAS</p>
+    <p>Source: FZS</p>
     
     
+    <p>Geographical Area: Federation of Bosnia and Herzegovina, cantons.</p>
+    
+    
+    <p>Unit of Measurement: Number</p>
     
     
   </div>
@@ -850,11 +854,17 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>BHAS</dd>
+        <dd>FZS</dd>
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina, cantons.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number</dd>
         
 
         
@@ -889,11 +899,17 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>BHAS</dd>
+        <dd>FZS</dd>
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina, cantons.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number</dd>
         
 
         
@@ -970,7 +986,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            
+            <p>2013</p>
 
           
         </td>
@@ -998,7 +1014,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Federation of Bosnia and Herzegovina, cantons.</p>
 
           
         </td>
@@ -1012,7 +1028,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Number</p>
 
           
         </td>
@@ -1026,7 +1042,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Age and sex structure of the population is the most important demographic characteristic of a population. The population age and sex structure shall be formed over a longer period of time, being directly influenced by natality and mortality trends, including migration. Current age and sex structure of the population therefore provides a clear picture of the last growth of any population, simultaneously conditioning, to a large extent, the future changes in the population trends. The population age is shown in the completed years of life on 30 September 2013 at 24:00, which is a Census Reference Moment.</p>
 
           
         </td>
@@ -1130,7 +1146,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/aa0d1af8d2ed454f8f848033a16a2e02b4d097c4" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/784d13f4e44838d234c66b723903f0118e528135" target="_blank">
                 2023-11-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1157,7 +1173,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/aa0d1af8d2ed454f8f848033a16a2e02b4d097c4" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/784d13f4e44838d234c66b723903f0118e528135" target="_blank">
                 2023-11-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1556,7 +1572,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>BHAS</p>
+            <p>FZS</p>
 
           
         </td>
@@ -1848,12 +1864,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231116094410'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231116094859'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231116094410"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231116094859"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
