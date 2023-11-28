@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231128090823">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231128091208">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_7-2-1'
   data-id="7-2-1"
-  data-country="BiH"
+  data-country="Federation of Bosnia and Herzegovina."
   data-charttitle="Households living in relative poverty"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="metadata_fields.unit_of_measurement_rate"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -663,6 +663,10 @@ data-event-label="high"
     <p>Source: BHAS</p>
     
     
+    <p>Geographical Area: Federation of Bosnia and Herzegovina.</p>
+    
+    
+    <p>Unit of Measurement: metadata_fields.unit_of_measurement_rate</p>
     
     
   </div>
@@ -966,7 +970,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>metadata_fields.unit_of_measurement_rate</dd>
         
 
         
@@ -1005,7 +1015,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>metadata_fields.unit_of_measurement_rate</dd>
         
 
         
@@ -1110,7 +1126,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Federation of Bosnia and Herzegovina.</p>
 
           
         </td>
@@ -1124,7 +1140,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>metadata_fields.unit_of_measurement_rate</p>
 
           
         </td>
@@ -1138,7 +1154,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Household is any family or other community of people who live together and jointly spend their income for the satisfaction of basic living needs, regardless of all members permanently living in the place where household resides or some of them temporarily being in another settlement or foreign country due to work, education or other reasons. Household head: a person of 18 years of age or older, who is identified as such for the purpose of the survey, regardless of the reason (owner of the dwelling or a person identified by other household members as such).If household members do not identify such a person by themselves, it will normally be the person contributing the most to the total household income.</p>
 
           
         </td>
@@ -1242,7 +1258,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/9b726b7e6e1f0af0c06bc93e023c5696c2b00395" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/1efe4b8a1c8fcf13fc38d1fddd284ceab0f5355a" target="_blank">
                 2023-11-28: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1269,7 +1285,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/9b726b7e6e1f0af0c06bc93e023c5696c2b00395" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/1efe4b8a1c8fcf13fc38d1fddd284ceab0f5355a" target="_blank">
                 2023-11-28: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1952,12 +1968,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231128090823'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231128091208'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231128090823"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231128091208"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
