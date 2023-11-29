@@ -972,6 +972,14 @@
           "keywords": "",
           "href": "/populationData-site/hr/7-3-1",
           "status": "complete"
+        },
+        {
+          "id": "7-3-2",
+          "title": "Stanovništvo koje živi u relativnom siromaštvu prema spolu",
+          "description": "",
+          "keywords": "",
+          "href": "/populationData-site/hr/7-3-2",
+          "status": "complete"
         }]
     }
   },
