@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231129184031">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231129193352">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,12 +505,12 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_7-2-1'
   data-id="7-2-1"
-  data-country="Federation of Bosnia and Herzegovina."
+  data-country="BiH"
   data-charttitle="Activity rate by age group and sex (quarterly)"
   data-charttitles="null"
-  data-measurementunit="Percentage"
+  data-measurementunit=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -518,7 +518,7 @@ data-event-label="high"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;AGE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;15 - 24&quot;,&quot;15 - 64&quot;,&quot;15 - 74&quot;,&quot;15 - 89&quot;,&quot;20 - 64&quot;,&quot;25 - 34&quot;,&quot;25 - 49&quot;,&quot;50 - 64&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Quarter&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Q1&quot;,&quot;Q2&quot;,&quot;Q3&quot;,&quot;Q4&quot;]},&quot;title&quot;:&quot;Quarter&quot;},{&quot;name&quot;:&quot;Sex&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;F&quot;,&quot;M&quot;,&quot;Both sexes&quot;]},&quot;title&quot;:&quot;Sex&quot;},{&quot;name&quot;:&quot;UNIT_MEASURE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Unit of measure&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -571,10 +571,6 @@ data-event-label="high"
     <p>Source: FZS</p>
     
     
-    <p>Geographical Area: Federation of Bosnia and Herzegovina.</p>
-    
-    
-    <p>Unit of Measurement: Percentage</p>
     
     
   </div>
@@ -814,53 +810,33 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-   // For line charts, add the vertical line hover functionality.
    opensdg.chartConfigAlter(function (config, info) {
-      //set chart to start from minimum value, and default pointStyle and size
-      if (config.data.datasets[0] != null) {
-         let minStart = config.data.datasets[0].data[0];
-         config.options.scales.yAxes[0].ticks.suggestedMin = minStart;
-         config.data.datasets[0].pointStyle = "circle";
-         config.data.datasets[0].borderWidth = 2;
 
-         //remove legend from single label indicator
-         if (config.data.datasets[0].label === 'BiH') {
-            delete config.data.datasets[0].label;
-         };
-      }
-
-      var overrides = {
-         options: {
-            tooltips: {
-               intersect: true,
-               axis: 'y'
-            },
-         },
-         plugins: [{
-            beforeDatasetsDraw: function (chart) {
-               if (chart.tooltip._active && chart.tooltip._active.length) {
-                  var activePoint = chart.tooltip._active[0],
-                     ctx = chart.ctx,
-                     x = activePoint.tooltipPosition().x,
-                     topY = chart.scales['y-axis-0'].top,
-                     bottomY = chart.scales['y-axis-0'].bottom;
-
-                  // draw line
-                  ctx.save();
-                  ctx.beginPath();
-                  ctx.moveTo(x, topY);
-                  ctx.lineTo(x, bottomY);
-                  ctx.lineWidth = 2;
-                  ctx.strokeStyle = '#757575';
-                  ctx.setLineDash([5, 2]);
-                  ctx.stroke();
-                  ctx.restore();
+      if (info.stackedDisaggregation) {
+         var overrides = {
+            options: {
+               scales: {
+                  xAxes: [{ stacked: true }],
+                  yAxes: [{ stacked: true }],
                }
             }
-         }],
-      };
-      // Add these overrides onto the normal config, and return it.
-      $.extend(true, config, overrides);
+         };
+         // If we have stackedDisaggregation, we need to group datasets into stacks.
+         config.data.datasets.forEach(function (dataset) {
+            var disaggregation = $.extend({}, dataset.disaggregation);
+            // We're going to "stringify" each combination of disaggregations in order
+            // to place them in their own "stacks". To place "stacked" disaggregations
+            // into the same stack, we set them as "samestack" before stringifying.
+            // Note that the string "samestack" is completely arbitrary.
+            if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+               disaggregation[info.stackedDisaggregation] = 'samestack';
+            }
+            // Use the disaggregation as a unique id for each stack.
+            dataset.stack = JSON.stringify(disaggregation);
+         });
+         // Add these overrides onto the normal config, and return it.
+         $.extend(true, config, overrides);
+      }
    });
 </script>
             </div>
@@ -878,13 +854,7 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
-        <dt>Geographical Area:</dt>
-        <dd>Federation of Bosnia and Herzegovina.</dd>
-        
 
-        
-        <dt>Unit of Measurement:</dt>
-        <dd>Percentage</dd>
         
 
         
@@ -923,13 +893,7 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
-        <dt>Geographical Area:</dt>
-        <dd>Federation of Bosnia and Herzegovina.</dd>
-        
 
-        
-        <dt>Unit of Measurement:</dt>
-        <dd>Percentage</dd>
         
 
         
@@ -1020,7 +984,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            <p>The poverty line represents a threshold in relation to consumption expenditures by which households are classified into a category poor and non-poor households. The relative poverty line is set at 60% of the median equalized monthly expenses for consumption. Poverty is therefore defined in a relative sense and depends on the distribution of consumption expenditures within the population. Poverty does not mean only the lack of necessary goods and services, but also the unfavorable status in which some households find themselves when compared to others: the poor are those who own less.</p>
+            
 
           
         </td>
@@ -1034,7 +998,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>Federation of Bosnia and Herzegovina.</p>
+            
 
           
         </td>
@@ -1048,7 +1012,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Percentage</p>
+            
 
           
         </td>
@@ -1062,7 +1026,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>Household is any family or other community of people who live together and jointly spend their income for the satisfaction of basic living needs, regardless of all members permanently living in the place where household resides or some of them temporarily being in another settlement or foreign country due to work, education or other reasons. Household head: a person of 18 years of age or older, who is identified as such for the purpose of the survey, regardless of the reason (owner of the dwelling or a person identified by other household members as such).If household members do not identify such a person by themselves, it will normally be the person contributing the most to the total household income.</p>
+            
 
           
         </td>
@@ -1090,7 +1054,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>Definitely poor are those households with consumption expenditure below 50% of the median adjusted expenditure.Scarcely poor households are those with consumption expenditure between 50% and 60% of the median adjusted expenditure.Households at risk of poverty are those with consumption expenditure between 60% and 70% of the median adjusted expenditure.</p>
+            
 
           
         </td>
@@ -1104,7 +1068,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Quality assurance </th>
         <td>
           
-            <p>For several reasons, this type of survey has limited value in poverty analysis. The survey refers to individuals living in the Federation of Bosnia and Herzegovina and does not include persons living in collective institutions (nursing homes, correctional homes, prisons, etc.). In addition, the homeless are also excluded because the sample was made based on the framework of inhabited housing units. Therefore, the survey cannot provide information about living conditions in extremely poor situations. But regardless, the survey remains the main source of information for poverty estimates in the Federation of Bosnia and Herzegovina, and must be used as a reference for any analysis of this phenomenon.</p>
+            
 
           
         </td>
@@ -1118,7 +1082,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Comparability with international data/standards </th>
         <td>
           
-            <p>For the poverty analysis presented in this chapter, the European standard methodology was used. According to this methodology, poverty is defined by equivalent household consumption expenditures that are below the standard threshold, which is annually set at 60.0% of the median monthly equalized household expenditures. This definition was adopted at the level of the European Union as a working definition in 1984 according to the decision of the Council of Europe, and reads: -Poor persons, families and groups of persons whose resources (material, cultural and social) are limited to such an extent that they exclude them from the the minimum required for living in the member country in which they live.</p>
+            
 
           
         </td>
@@ -1166,6 +1130,10 @@ data-event-label="Change to Sources tab"
             
 
             
+              <a href="https://github.com/demografijafbih/populationData-data/commit/5e84499f5defd7520cd956ee798edf8feb867f8d" target="_blank">
+                2023-11-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
 
           
         </td>
@@ -1189,7 +1157,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/21960f62ca407ce7435e13022e33a9b57b6c5cca" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/5e84499f5defd7520cd956ee798edf8feb867f8d" target="_blank">
                 2023-11-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1872,12 +1840,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231129184031'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231129193352'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231129184031"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231129193352"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
