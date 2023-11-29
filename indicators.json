@@ -911,7 +911,7 @@
         
         {
           "id": "7-1-1",
-          "title": "Labour force participation rate - percentage of active population (labour force) in working age population by age group and sex",
+          "title": "Activity rate by age group and sex",
           "description": "",
           "keywords": "",
           "href": "/populationData-site/7-1-1",
@@ -919,7 +919,7 @@
         },
         {
           "id": "7-1-2",
-          "title": "Employment-to-population ratio - percentage of employed population in working age population by age group and sex",
+          "title": "Employment rate by age group and sex",
           "description": "",
           "keywords": "",
           "href": "/populationData-site/7-1-2",
@@ -927,7 +927,7 @@
         },
         {
           "id": "7-1-3",
-          "title": "Unemployment rate - percentage of unemployed population in active population (labour force) by age group and sex",
+          "title": "Unemployment rate by age group and sex",
           "description": "",
           "keywords": "",
           "href": "/populationData-site/7-1-3",
@@ -951,7 +951,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "Households living in relative poverty",
+          "title": "Activity rate by age group and sex (quarterly)",
           "description": "The poverty line represents a threshold in relation to consumption expenditures by which households are classified into a category poor and non-poor households. The relative poverty line is set at 60% of the median equalized monthly expenses for consumption. Poverty is therefore defined in a relative sense and depends on the distribution of consumption expenditures within the population. Poverty does not mean only the lack of necessary goods and services, but also the unfavorable status in which some households find themselves when compared to others: the poor are those who own less.",
           "keywords": "",
           "href": "/populationData-site/7-2-1",
@@ -959,7 +959,7 @@
         },
         {
           "id": "7-2-2",
-          "title": "Population living in relative poverty by sex",
+          "title": "Employment rate by age group and sex (quarterly)",
           "description": "",
           "keywords": "",
           "href": "/populationData-site/7-2-2",
