@@ -42,14 +42,13 @@ button:focus {
 .navbar-brand {
    display: block;
    width: 75%;
-   max-width: 310px;
 }
 
 header .container {
    padding-top: 10px;
 
    .supp-by {
-      height: 110px;
+      height: 60px;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
@@ -180,7 +179,6 @@ header {
 
    .navbar-brand {
       display: block;
-      max-width: 170px;
 
       &:focus {
          outline: unset !important;
