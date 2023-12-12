@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231212091359">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231212093327">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_5-3-5'
   data-id="5-3-5"
-  data-country="BiH"
+  data-country="Federacija BiH."
   data-charttitle="Broj nastavnika u srednjim školama prema spolu"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Broj"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,6 +571,10 @@ data-event-label="high"
     <p>Izvor: FZS</p>
     
     
+    <p>Geografsko područje: Federacija BiH.</p>
+    
+    
+    <p>Mjerna jedinica: Broj</p>
     
     
   </div>
@@ -874,7 +878,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geografsko područje:</dt>
+        <dd>Federacija BiH.</dd>
+        
 
+        
+        <dt>Mjerna jedinica:</dt>
+        <dd>Broj</dd>
         
 
         
@@ -913,7 +923,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geografsko područje:</dt>
+        <dd>Federacija BiH.</dd>
+        
 
+        
+        <dt>Mjerna jedinica:</dt>
+        <dd>Broj</dd>
         
 
         
@@ -990,7 +1006,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Dostupni indikatori </th>
         <td>
           
-            
+            <p>2016-2022</p>
 
           
         </td>
@@ -1018,7 +1034,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geografska pokrivenost </th>
         <td>
           
-            
+            <p>Federacija BiH.</p>
 
           
         </td>
@@ -1032,7 +1048,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Mjerna jedinica </th>
         <td>
           
-            
+            <p>Broj</p>
 
           
         </td>
@@ -1046,7 +1062,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definicije </th>
         <td>
           
-            
+            <p>Školom se u statistici smatra skupina učenika koja prati nastavu određene vrste i stepena/stupnja po jedinstvenom planu i programu, bez obzira da li se ta skupina učenika nalazi pod posrednim ili neposrednim rukovodstvom jedne uprave ili ima zajedničku upravu s drugim školskim jedinicama različitih vrsta i stepena/stupnja obrazovanja. Svaka geografski odvojena jedinica (odjeljenje) iste vrste smatra se također školom (školskim odjeljenjem/odjelom).Razredno odjeljenje/odjel predstavlja skupinu učenika koja istovremeno i u istoj prostoriji uči u toku jedne školske godine, bilo od jednog ili više nastavnika/učitelja. Završni razred je onaj razred kojim učenik završava školovanje u toj školi. Ponavljač je učenik koji drugi put ili više puta upisuje isti razred. Učenik upućen da ponavlja razred je onaj učenik koji je na kraju školske godine negativno ocijenjen iz tri ili više predmeta (saglasno propisima za tu vrstu škole) ili onaj koji na kraju školske godine ne položi popravni, odnosno razredni ispit. Nastavnici su stručne osobe koje neposredno sa djecom realizuju različite programe osnovnog odgoja i obrazovanja.</p>
 
           
         </td>
@@ -1150,7 +1166,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/f23a7fed3059dd2be8e09ce5d7474a9071e1b13e" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/a4a121ccb212a5eeca1656cc02a8ef39463d479f" target="_blank">
                 2023-12-12: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1177,7 +1193,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/f23a7fed3059dd2be8e09ce5d7474a9071e1b13e" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/a4a121ccb212a5eeca1656cc02a8ef39463d479f" target="_blank">
                 2023-12-12: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1860,12 +1876,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231212091359'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231212093327'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231212091359"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231212093327"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
