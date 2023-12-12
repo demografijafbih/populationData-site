@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231212095600">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20231212095726">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -505,10 +505,10 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_5-6-1'
   data-id="5-6-1"
-  data-country="BiH"
+  data-country="Federation of Bosnia and Herzegovina."
   data-charttitle="Enrolled in doctoral studies by sex"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Number"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,6 +571,10 @@ data-event-label="high"
     <p>Source: FZS</p>
     
     
+    <p>Geographical Area: Federation of Bosnia and Herzegovina.</p>
+    
+    
+    <p>Unit of Measurement: Number</p>
     
     
   </div>
@@ -874,7 +878,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number</dd>
         
 
         
@@ -913,7 +923,13 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Geographical Area:</dt>
+        <dd>Federation of Bosnia and Herzegovina.</dd>
+        
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number</dd>
         
 
         
@@ -990,7 +1006,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            
+            <p>2016-2022</p>
 
           
         </td>
@@ -1018,7 +1034,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Federation of Bosnia and Herzegovina.</p>
 
           
         </td>
@@ -1032,7 +1048,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Number</p>
 
           
         </td>
@@ -1046,7 +1062,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Higher education institutions in Bosnia and Herzegovina are universities and colleges. institutes, which carry out teaching, scientific research and artistic work in one or more educational and scientific fields. In higher education statistics, the units of observation are higher education institutions and organizational units within them. All enrolled and graduated students at higher education institutions. All persons who have master’s degrees, specialized and doctorate in the current year Number of students (enrolled, graduated, masters and specialists, doctoral students) at higher education institutions.</p>
 
           
         </td>
@@ -1150,7 +1166,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/a6cb3ffeb68edefdafb2696957a942357feaacc7" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/18e361b6852e351f1aa1d3626d1e01fa0122667e" target="_blank">
                 2023-12-12: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1177,7 +1193,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demografijafbih/populationData-data/commit/a6cb3ffeb68edefdafb2696957a942357feaacc7" target="_blank">
+              <a href="https://github.com/demografijafbih/populationData-data/commit/18e361b6852e351f1aa1d3626d1e01fa0122667e" target="_blank">
                 2023-12-12: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1860,12 +1876,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/populationData-site/assets/js/sdg.js?v=20231212095600'></script>
+<script src='/populationData-site/assets/js/sdg.js?v=20231212095726'></script>
 
 
     
     
-    <script src="/populationData-site/assets/js/custom.js?v=20231212095600"></script><script>
+    <script src="/populationData-site/assets/js/custom.js?v=20231212095726"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
